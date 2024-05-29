@@ -42,8 +42,27 @@
         }
 
         /** Media query 1*/
+        @media screen and (min-width: 768px){
+            p{
+                column-count: 2;
+            }
 
+            ul{
+                justify-content: flex-end;
+            }
+        }
         /** Media query 2*/
+        @media screen and (min-width: 992px){
+            body{
+                font-size: 1.5rem;
+            }
+        }
+
+        @media print {
+            nav ul{
+                display: none;
+            }
+        }
     </style>
 
 </head>
